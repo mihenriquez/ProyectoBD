@@ -1,0 +1,111 @@
+/* Este archivo no es necesario. Solo es para cambiar las propiedades de los objetos HTML
+Es mucho más fácil implementar una plantilla de Bootstrap que cambiar estas cosas a mano */
+
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #000;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-4, .bgimg-5 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('http://www.chilesustentable.net/wp-content/uploads/2018/08/Imagen-WhatsApp-Image-2018-08-30-at-18.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("https://www.chroniclebooks.com/blog/wp-content/uploads/globalcitizens-1-680x450.jpg");
+  min-height: 200px;
+}
+
+.bgimg-4 {
+  background-image: url("https://radio.uchile.cl/wp-content/uploads/2018/01/carbon-quema.jpg");
+  min-height: 200px;
+}
+
+.bgimg-5 {
+  background-image: url("https://www.curriculumnacional.cl/614/articles-26538_recurso_jpg.jpg");
+  min-height: 200px;
+}
+
+
+
+.w3-col {
+  border-style: solid;
+  border-width: 5px;
+}
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+.w3-button{
+  letter-color: black
+}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+
+
+
+input {
+    width: 10%;
+    height: 20px;
+}
+
+input[type=text] {
+    font-size: 20px;
+}
+
+input[type=submit] {
+    width: 10em;
+    height: 2em;
+    font-size: 25px;
+}
+
+
+
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    font-size: 20px
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
